@@ -26,11 +26,11 @@ void printArray(int[,] arr)
     }
     Console.Write($"\n");
 }
-Console.Write("Введите размерность первого массива:\nСтроки: ");
+Console.Write("Введите размерность первой матрицы:\nСтроки: ");
 int m1 = Convert.ToInt32(Console.ReadLine());
 Console.Write("Столбцы: ");
 int n1 = Convert.ToInt32(Console.ReadLine());
-Console.Write("Введите размерность второго массива:\nСтроки: ");
+Console.Write("Введите размерность второй матрицы:\nСтроки: ");
 int m2 = Convert.ToInt32(Console.ReadLine());
 Console.Write("Столбцы: ");
 int n2 = Convert.ToInt32(Console.ReadLine());
@@ -59,4 +59,4 @@ if (n1 == m2)
     printArray(arr2);
     printArray(resArr);
 }
-else Console.Write("\nПроизведения таких массивов не может существовать. Проверьте размерность.");
+else Console.Write("\nПроизведения таких матриц не может существовать. Проверьте размерность.");
